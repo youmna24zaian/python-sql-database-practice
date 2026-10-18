@@ -144,5 +144,3 @@ Computer Engineering Graduate | AI & Machine Learning | Python & Data Science
 *This repository is a learning project and may be updated as exercises are reviewed, tested, and improved.*
 
 ---
-
-*This repository is a learning project and may be updated as exercises are reviewed, tested, and improved.*
