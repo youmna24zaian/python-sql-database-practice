@@ -1,70 +1,78 @@
 # Python & SQL Database Practice
 
-A hands-on learning project focused on SQL queries, relational database concepts, and connecting Python applications to databases. This repository includes SQL scripts, Jupyter Notebooks, database exercises, and visual documentation.
+A hands-on practice repository exploring SQL query writing, relational database concepts, and Python database connectivity. It includes SQL scripts, SQLite data, Jupyter notebooks, and visual references for common database workflows.
 
-![Project Banner](images/project-banner.png)
+![Python and SQL Database Practice — Project Banner](images/project-banner.png)
 
-## Project Overview
+## Overview
 
-This project demonstrates practical database exercises using SQL and Python. It covers querying and filtering data, joining tables, aggregating results, working with database objects, and connecting Python to SQLite and SQL Server.
+This repository documents practical exercises using SQL and Python, including retrieving and filtering records, joining tables, aggregating data, and executing SQL through Python. The exercises use SQLite and include SQL Server-related practice where configured.
 
-The repository is intended to document my learning journey and practical exercises in database management and Python database connectivity.
+The repository is a learning portfolio: examples and diagrams are intended to illustrate the topics practiced, while the notebooks and SQL scripts remain the source of truth for the actual exercises.
 
-## Project Visuals
+## Visual Gallery
 
-### Project Cover
+### SQL Query Writing Service
 
-![Project Cover](images/cover.png)
+These five images provide a focused overview of SQL query writing and Python integration.
 
-### 1. Database Code Preview
+#### 1. SQL Query Service Cover
 
-A visual overview of database-related code and SQL operations used in the practice project.
+![SQL Query Service Cover](images/01-sql-query-service-cover.png)
+
+#### 2. SQL Query Examples
+
+![SQL Query Examples](images/02-sql-query-examples.png)
+
+#### 3. SQL Joins and Filtering
+
+![SQL Joins and Filtering](images/03-sql-joins-and-filtering.png)
+
+#### 4. Advanced SQL Operations
+
+![Advanced SQL Operations](images/04-advanced-sql-operations.png)
+
+#### 5. Python and SQL Integration
+
+![Python SQL Integration](images/05-python-sql-integration.png)
+
+### Additional Project Visuals
+
+The following images were already part of the repository and are retained here.
+
+#### 6. Database Code Preview
 
 ![Database Code Preview](images/database-code-preview.png)
 
-### 2. Python and SQLite Workflow
+#### 7. Python and SQLite Workflow
 
-A visual representation of the workflow for connecting Python to an SQLite database and working with stored data.
+![Python and SQLite Workflow](images/python-sqlite-workflow.png)
 
-![Python SQLite Workflow](images/python-sqlite-workflow.png)
-
-### 3. SQL Operations Overview
-
-An overview of SQL operations and relational database concepts covered in the exercises.
+#### 8. SQL Operations Overview
 
 ![SQL Operations Overview](images/sql-operations-overview.png)
 
-### 4. Data Visualization — Bar Chart
+## Topics Practiced
 
-A bar chart example illustrating how data can be presented and compared visually.
+Depending on the exercise, the repository covers:
 
-![Gallery 1 - Bar Chart](images/gallery-1-bar-chart.png)
+- Retrieving and filtering records with `SELECT` and `WHERE`.
+- Combining related records using SQL joins.
+- Using aggregate functions such as `COUNT`, `SUM`, `AVG`, and `MAX`.
+- Grouping results and applying conditions to aggregated data.
+- Practicing additional SQL constructs, including views or CTEs where demonstrated in the relevant exercise.
+- Connecting Python to a database and executing SQL queries.
+- Reviewing query results and presenting structured data.
 
-### 5. Dashboard
+Refer to each notebook or SQL script for the specific operations and setup required.
 
-A dashboard-style visual demonstrating how key information and metrics can be organized for easier interpretation.
-
-![Gallery 2 - Dashboard](images/gallery-2-dashboard.png)
-
-### 6. Table Results
-
-A table-based view illustrating structured data and query results.
-
-![Gallery 3 - Table Result](images/gallery-3-table-result.png)
-
-### 7. Orders Chart
-
-A chart focused on order-related data, demonstrating another way to present and interpret information visually.
-
-![Gallery 4 - Orders Chart](images/gallery-4-orders-chart.png)
-
-## Technologies & Tools
+## Technologies and Tools
 
 - **Python**
 - **SQL**
 - **SQLite**
-- **SQL Server**
-- **pyodbc**
+- **SQL Server** (for the relevant exercises, with a configured instance and driver)
+- **pyodbc** (where used for SQL Server connectivity)
 - **Jupyter Notebook**
 - **Git and GitHub**
 
@@ -72,18 +80,16 @@ A chart focused on order-related data, demonstrating another way to present and 
 
 ```text
 python-sql-database-practice/
-│
 ├── images/
-│   ├── project-banner.png
-│   ├── cover.png
+│   ├── 01-sql-query-service-cover.png
+│   ├── 02-sql-query-examples.png
+│   ├── 03-sql-joins-and-filtering.png
+│   ├── 04-advanced-sql-operations.png
+│   ├── 05-python-sql-integration.png
 │   ├── database-code-preview.png
+│   ├── project-banner.png
 │   ├── python-sqlite-workflow.png
-│   ├── sql-operations-overview.png
-│   ├── gallery-one-bar-chart.png
-│   ├── gallery-two-dashboard.png
-│   ├── gallery-three-table-result.png
-│   └── gallery-four-orders-chart.png
-│
+│   └── sql-operations-overview.png
 ├── Exercise 3.sql
 ├── Exercise3.db
 ├── SQL_Python_EX sol.ipynb
@@ -93,29 +99,16 @@ python-sql-database-practice/
 └── README.md
 ```
 
-## Concepts Practiced
-
-- Retrieving and filtering records using `SELECT` and `WHERE`.
-- Combining data from multiple tables using `INNER JOIN` and `LEFT JOIN`.
-- Identifying records without matching related records.
-- Using aggregate functions such as `COUNT`, `SUM`, `AVG`, and `MAX`.
-- Grouping records and filtering aggregated results.
-- Creating and querying SQL views.
-- Working with Common Table Expressions (CTEs).
-- Connecting Python to databases and executing SQL queries.
-- Organizing project files and documenting work with GitHub.
-- Presenting data through charts, tables, and dashboard-style visuals.
-
 ## Project Files
 
-| File | Description |
+| File | Purpose |
 |---|---|
-| `Exercise 3.sql` | SQL exercises for practicing queries and database operations. |
+| `Exercise 3.sql` | SQL practice queries and database exercises. |
 | `Exercise3.db` | SQLite database file associated with the exercises. |
-| `SQL_Python_EX sol.ipynb` | Notebook containing SQL practice through Python database connectivity. |
-| `python_sql_my_solution.ipynb` | Notebook containing additional SQL practice and solutions. |
-| `requirements.txt` | Python package dependencies for the project. |
-| `images/` | Project banner, cover, workflow diagrams, code previews, and data visualization images. |
+| `SQL_Python_EX sol.ipynb` | Notebook for SQL exercises involving Python/database workflows. |
+| `python_sql_my_solution.ipynb` | Additional notebook with SQL practice and solutions. |
+| `requirements.txt` | Python dependencies listed for the project. |
+| `images/` | Project banner, query-service visuals, code preview, and workflow diagrams. |
 
 ## Getting Started
 
@@ -126,53 +119,44 @@ git clone https://github.com/youmna24zaian/python-sql-database-practice.git
 cd python-sql-database-practice
 ```
 
-### 2. Set Up the Python Environment
+### 2. Set Up Python
 
-Create a virtual environment:
+Create and activate a virtual environment if desired:
 
 ```bash
 python -m venv .venv
 ```
 
-Activate it on Windows:
+On Windows:
 
 ```bash
-.venv\Scripts\activate
+.venv\\Scripts\\activate
 ```
 
-Install the required packages:
+Install the listed dependencies:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3. Configure the Database
+Some exercises may use Python's built-in `sqlite3` module and require no additional database package. SQL Server exercises may require a configured SQL Server instance and an appropriate ODBC driver.
 
-Make sure the database engine and driver required by your selected exercise are installed and configured.
+### 3. Open the Exercises
 
-For SQL Server exercises, update the connection settings to match your SQL Server instance.
+Open the notebooks in Jupyter Notebook, JupyterLab, or Visual Studio Code. Review each notebook or SQL script before running it, and configure any required database connection settings for your environment.
 
-For SQLite exercises, use the relevant database file and connection code.
+**Note:** Requirements and connection settings can differ between exercises. The repository is for practice and learning; successful execution depends on the local database setup.
 
-### 4. Run the Notebooks
+## Learning Goals
 
-Open the Jupyter Notebooks using Jupyter Notebook, JupyterLab, or Visual Studio Code. Execute the cells in order and verify that the required database connection is configured correctly.
-
-**Note:** Database setup requirements may differ between exercises. Review the relevant notebook or SQL script before execution.
-
-## Learning Objectives
-
-- Strengthen SQL query-writing skills through practical exercises.
-- Understand relational database concepts and table relationships.
-- Practice joins, aggregations, views, and CTEs.
-- Explore database connectivity using Python.
-- Improve project documentation and version-control practices.
-- Understand how charts, tables, and dashboards can help communicate data.
+- Build confidence writing and reading SQL queries.
+- Practice working with related tables and query results.
+- Understand how Python can connect to a database and execute SQL.
+- Keep exercises and learning notes organized in a version-controlled repository.
 
 ## Author
 
-**Youmna Zaian**
-
+**Youmna Zaian**  
 Computer Engineering Graduate | AI & Machine Learning | Python & Data Science
 
-*This repository is a learning project documenting practical exercises and continued development of database and Python skills.*
+*This repository documents practical exercises and ongoing development of SQL and Python database skills.*
