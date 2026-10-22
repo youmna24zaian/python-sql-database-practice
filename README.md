@@ -38,25 +38,25 @@ An overview of SQL operations and relational database concepts covered in the ex
 
 A bar chart example illustrating how data can be presented and compared visually.
 
-![Gallery 1 - Bar Chart](images/gallery-one-bar-chart.png)
+![Gallery 1 - Bar Chart](images/gallery-1-bar-chart.png)
 
 ### 5. Dashboard
 
 A dashboard-style visual demonstrating how key information and metrics can be organized for easier interpretation.
 
-![Gallery 2 - Dashboard](images/gallery-two-dashboard.png)
+![Gallery 2 - Dashboard](images/gallery-2-dashboard.png)
 
 ### 6. Table Results
 
 A table-based view illustrating structured data and query results.
 
-![Gallery 3 - Table Result](images/gallery-three-table-result.png)
+![Gallery 3 - Table Result](images/gallery-3-table-result.png)
 
 ### 7. Orders Chart
 
 A chart focused on order-related data, demonstrating another way to present and interpret information visually.
 
-![Gallery 4 - Orders Chart](images/gallery-four-orders-chart.png)
+![Gallery 4 - Orders Chart](images/gallery-4-orders-chart.png)
 
 ## Technologies & Tools
 
